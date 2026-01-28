@@ -148,7 +148,7 @@ const ServiceSection = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="absolute inset-0 w-[80%] mt-15 mx-auto h-45 object-cover"
+                    className="absolute inset-0 w-[80%] mt-15 mx-auto h-50 object-cover"
                     onError={(e) => {
                       e.currentTarget.onerror = null;
                       e.currentTarget.src = "/logo.png"; // fallback logo
